@@ -1,0 +1,166 @@
+* {
+  text-align: center;
+  background-color: lightgray;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+/* ================================================= */
+/*               Componente Table Tasks              */
+/* ================================================= */
+.tasks-list {
+  background-color: #ededed;
+  margin: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-table {
+  background-color: blueviolet;
+  color: #ededed;
+  font-weight: 700;
+  width: 80px;
+  padding: 5px;
+  margin: 15px 15px 15px auto;
+  border-radius: 5px;
+}
+
+.btn-table:hover {
+  background-color: purple;
+  cursor: pointer;
+}
+.btn-table-conclude {
+  background-color: rgba(138, 43, 226, 0.4);
+  color: #ededed;
+  font-weight: 700;
+  width: 80px;
+  padding: 5px;
+  margin: 15px 15px 15px auto;
+  border-radius: 5px;
+}
+
+.table-tasks {
+  border-collapse: collapse;
+}
+.table-tasks th {
+  padding: 8px;
+}
+.table-tasks td {
+  background-color: #ededed;
+  border: none;
+  padding: 8px;
+}
+.icons {
+  background-color: #ededed;
+}
+
+.image-container {
+  position: absolute;
+  background-color: transparent;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+  transform: translate(0, 0);
+}
+.btn-image {
+  position: absolute;
+  z-index: 1;
+  background-color: blueviolet;
+  color: #ededed;
+  font-weight: 700;
+  width: 80px;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 5px;
+}
+.btn-image:hover {
+  background-color: purple;
+  cursor: pointer;
+}
+
+/* ================================================= */
+/*                Componente New Task                */
+/* ================================================= */
+.new-task {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+h5 {
+  font-size: 25px;
+  text-align: left;
+  background-color: transparent;
+  margin-bottom: 50px;
+}
+
+.new-post {
+  padding: 50px;
+  width: 50%;
+  background-color: #ededed;
+  margin: 50px auto;
+  border: 10px solid gray;
+}
+
+.form-post {
+  background-color: transparent;
+  text-align: justify;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#task {
+  width: 97%;
+  padding: 5px;
+  background-color: #ededed;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  text-align: start;
+}
+
+#status {
+  width: 100%;
+  background-color: #ededed;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+}
+
+#image {
+  display: none;
+}
+.upload {
+  font-size: 12px;
+  background-color: transparent;
+}
+.icon-send {
+  background-color: transparent;
+  width: fit-content;
+}
+.iconUpload {
+  font-size: 25px;
+  background-color: transparent;
+}
+
+.btn-submit {
+  background-color: blueviolet;
+  color: #ededed;
+  font-weight: 700;
+  width: 80px;
+  padding: 5px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.btn-submit:hover {
+  background-color: purple;
+  cursor: pointer;
+}
